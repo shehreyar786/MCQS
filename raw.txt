@@ -1,0 +1,865 @@
+What is Machine Learning?
+A.	A type of database management
+B.	A method that allows computers to learn from data without being explicitly 
+programmed
+C.	A programming language
+D.	A process of manually programming rules
+ANSWER: B
+Which of the following best describes supervised learning?
+A.	Learning through clustering
+B.	Learning by reward and punishment
+C.	Learning without any labeled data
+D.	Learning from labeled input-output pairs
+ANSWER: D
+What does a model in machine learning represent?
+A.	A physical robot
+B.	A type of programming loop
+C.	A database schema
+D.	A mathematical function learned from data
+ANSWER: D
+Which of the following is NOT a type of machine learning?
+A.	Unsupervised Learning
+B.	Reinforcement Learning
+C.	Supervised Learning
+D.	Compiled Learning
+ANSWER: D
+What is training data in machine learning?
+A.	Data used to teach the model
+B.	Random noise data
+C.	Output predictions
+D.	Data used to test the model
+ANSWER: A
+What is the primary goal of machine learning?
+A.	To make predictions or decisions from data
+B.	To encrypt data
+C.	To store large amounts of data
+D.	To write code automatically
+ANSWER: A
+Which task is an example of a machine learning application?
+A.	Opening a file
+B.	Email spam detection
+C.	Adding two numbers
+D.	Printing text
+ANSWER: B
+What is a feature in machine learning?
+A.	An individual measurable property of data
+B.	The learning rate
+C.	A bug in code
+D.	The output of a model
+ANSWER: A
+What is overfitting in machine learning? A. Model performs well on training data but poorly on new data
+B.	Model is too simple
+C.	Model performs poorly on training data
+D.	Model has no parameters
+ANSWER: A
+Which of the following is a common machine learning algorithm?
+A.	Binary Search
+B.	Quick Sort
+C.	Bubble Sort
+D.	Decision Tree
+ANSWER: D
+What is cross-validation used for?
+A.	To download more data
+B.	To reliably estimate model performance by testing on multiple data splits
+C.	To remove outliers
+D.	To increase model complexity
+ANSWER: B
+Which of the following is a hyperparameter?
+A.	Output predictions
+B.	Learning rateC. Model biases
+D. Model weights
+ANSWER: B
+What is a test set used for?
+A.	Preprocessing data
+B.	Final unbiased evaluation of the trained model
+C.	Training the model
+D.	Feature engineering
+ANSWER: B
+What does 'underfitting' mean?
+A.	Model has too many layers
+B.	Model uses too much memory
+C.	Model is too simple to capture the underlying patterns in data
+D.	Model memorizes training data
+ANSWER: C
+Which metric is used to evaluate a regression model?
+A.	Accuracy
+B.	F1 Score
+C.	Confusion Matrix
+D.	Mean Squared Error
+ANSWER: D
+What is the purpose of feature scaling (normalization) in ML?
+A.	To sort the dataset
+B.	To remove features
+C.	To increase the number of features
+D.	To bring features to a similar scale so the model trains more effectively
+ANSWER: D
+Statistical learning is primarily concerned with:
+A.	Learning statistical patterns from data
+B.	Database indexing
+C.	Network security
+D.	Hardware optimization
+ANSWER: A
+What does variance mean in statistical learning?
+A.	The average error
+B.	The learning rate
+C.	How much the model output changes with different training data
+D.	The number of features
+ANSWER: C
+What is bias in a statistical model?
+A.	The number of layers
+B.	Random noise in data
+C.	Systematic error due to wrong assumptions
+D.	Error due to overly complex model
+ANSWER: C
+The bias-variance tradeoff refers to:
+A.	Balancing accuracy and speed
+B.	Balancing model complexity and generalization
+C.	Balancing data size and features
+D.	Balancing training and testing
+ANSWER: B
+What is a probability distribution?
+A.	A list of sorted numbers
+B.	A type of neural network
+C.	A training algorithm
+D.	A function describing the likelihood of outcomes
+ANSWER: D
+What is the mean of a dataset?
+A.	The middle value
+B.	The largest value
+C.	The average of all values
+D.	The most frequent value
+ANSWER: C
+What does standard deviation measure?
+A.	The spread or variability of data
+B.	The sum of data
+C.	The minimum value
+D.	The average of data
+ANSWER: A
+What is regression analysis used for?
+A.	Clustering data
+B.	Detecting anomalies
+C.	Classifying images
+D.	Predicting continuous numerical values
+ANSWER: D
+What does correlation measure?
+A.	Number of data points
+B.	Causal relationship between variables
+C.	Strength and direction of linear relationship between variables
+D.	Model accuracy
+ANSWER: C
+What is the purpose of a train-test split?
+A.	To evaluate model performance on unseen data
+B.	To reduce training time
+C.	To double the dataset
+D.	To increase model complexity
+ANSWER: A
+What is the median of a dataset?
+A.	The largest value
+B.	The most frequent value
+C.	The middle value when data is sorted
+D.	The average of all values
+ANSWER: C
+What is a null hypothesis in statistics? A. A default assumption that there is no effect or relationship
+B.	A type of activation function
+C.	A hypothesis that is always true
+D.	The final conclusion
+ANSWER: A
+What does p-value measure in statistical testing?
+A.	The learning rate
+B.	The probability of observing results at least as extreme if the null hypothesis is true
+C.	Model accuracy
+D.	The loss value
+ANSWER: B
+What is overfitting in the context of statistical models?
+A.	The model is too simple
+B.	The model fits the training data too closely and fails to generalize
+C.	The model has no parameters
+D.	The model uses no data
+ANSWER: B
+Deep Learning is a subset of:
+A.	ML requires GPUs; Deep Learning does not
+B.	Deep Learning uses rule-based systems; ML uses data
+C.	They are exactly the same
+D.	Deep Learning uses neural networks with many layers; ML uses traditional algorithms
+A.	Statistics
+B.	Cloud Computing
+C.	Database Systems
+D.	Machine Learning
+ANSWER: D
+Which requires more data to perform well? A. Classical Machine Learning
+B.	Deep Learning
+C.	Both equally
+D.	NeitherANSWER: B
+Feature engineering is more critical in:
+A.	Classical Machine Learning
+B.	Reinforcement Learning only
+C.	Deep Learning
+D.	Both equally
+ANSWER: A
+Deep Learning models are generally:
+A.	More complex with many parameters
+B.	Faster to train on small datasets
+C.	Simpler and more interpretable
+D.	Less accurate than ML models
+ANSWER: A
+Which is better suited for image recognition tasks?
+A.	Linear Regression
+B.	Deep Learning (CNNs)
+C.	K-Means Clustering
+D.	Decision Trees
+ANSWER: B
+Machine Learning algorithms typically require:
+A.	Manual feature engineering
+B.	Automatic feature extraction
+C.	No training data
+D.	Extremely large datasets
+ANSWER: A
+Deep Learning models can automatically:
+A.	Write code
+B.	Generate new algorithms
+C.	Extract features from raw data
+D.	Manage databases
+ANSWER: C
+Which statement about Deep Learning is TRUE?
+A.	It requires manually crafted features
+B.	It cannot process images
+C.	It works only with text data
+D.	It uses layers of neural networks to learn representations
+ANSWER: D
+Traditional ML algorithms are preferred when:
+A.	Building chatbots
+B.	Computational resources are limited and data is small
+C.	Processing images and speech
+D.	Data is very large
+ANSWER: B
+Deep Learning is inspired by:
+A.	Database design
+B.	The structure of the human brain
+C.	The structure of computers
+D.	Mathematical equations only
+ANSWER: B
+What is a neural network in deep learning?
+A. A type of sorting algorithm B. A system of interconnected artificial neurons
+C.	A physical network of wires
+D.	A cloud storage solution
+ANSWER: B
+What does the word 'deep' refer to in Deep Learning?
+A.	Complex hardware
+B.	Many hidden layers in neural networks
+C.	Deep mathematical equations
+D.	Deep storage of data
+ANSWER: B
+Which application uses Deep Learning?
+A.	Text editors
+B.	Simple arithmetic
+C.	File compression
+D.	Voice assistants like Siri and Alexa
+ANSWER: D
+What hardware is commonly used to speed up Deep Learning? A. GPU (Graphics Processing Unit)
+B. CPU only C. Hard Drive
+D. RAM only ANSWER: A
+Which framework is widely used for Deep Learning?
+A.	Notepad
+B.	Microsoft Excel
+C.	Photoshop
+D.	TensorFlow
+ANSWER: D
+What type of data is Deep Learning especially good at processing?
+A.	Sorted lists
+B.	Images, audio, and text
+C.	Simple numerical tables
+D.	Spreadsheets only
+ANSWER: B
+A deep learning model learns by:
+A.	Adjusting weights based on errors
+B.	Random guessing
+C.	Human programming of all rules
+D.	Copying existing data
+ANSWER: A
+What is the output of a deep learning model called?
+A.	A bias
+B.	A feature
+C.	A prediction or classification
+D.	A weightANSWER: C
+Which of the following is a type of deep learning architecture? A. Convolutional Neural Network (CNN)
+B. Bubble Sort C. Hash Table
+D. Binary Tree
+ANSWER: A
+What is the vanishing gradient problem?
+A.	The learning rate becomes zero automatically
+B.	Gradients become extremely small in deep networks making early layers hard to train
+C.	The model forgets its weights
+D.	Gradients become too large during training
+ANSWER: B
+Which of the following is a recurrent neural network? A. LSTM (Long Short-Term Memory)
+B.	PCA
+C.	Random Forest
+D.	CNN
+ANSWER: A
+What is dropout in deep learning?
+A.	Removing the output layer
+B.	Removing training data
+C.	Reducing the learning rate
+D.	Randomly setting some neurons to zero during training to prevent overfitting
+ANSWER: D
+What is batch normalization used for?
+A.	To increase the batch size
+B.	To remove outliers
+C.	To sort training data
+D.	To normalize layer inputs to speed up training and stabilize learning
+ANSWER: D
+What is an epoch in deep learning training?
+A.	One prediction
+B.	One weight update
+C.	One layer of computation
+D.	One complete pass through the entire training dataset
+ANSWER: D
+What is representation learning? A. Learning to represent data in a useful form automatically
+B.	Learning programming syntax
+C.	Manually designing features
+D.	A type of sorting
+ANSWER: A
+Why is representation learning important in deep learning?
+A.	It reduces the need for manual feature engineering
+B.	It speeds up hardware
+C.	It stores data efficiently
+D.	It writes code automatically
+ANSWER: A
+An autoencoder is an example of:
+A.	A representation learning model
+B.	A sorting algorithm
+C.	A database query
+D.	A supervised classifier
+ANSWER: A
+In representation learning, 'features' are:
+A.	Pre-stored in a database
+B.	Fixed mathematical constants
+C.	Automatically learned from data
+D.	Manually defined by experts
+ANSWER: C
+Word embeddings (e.g., Word2Vec) are an example of:
+A.	Network security
+B.	Representation learning for text
+C.	Data sorting
+D.	Image classification
+ANSWER: B
+Which layer in a neural network learns representations?
+A.	Hidden layers
+B.	Only the input layer
+C.	None
+D.	Only the output layer
+ANSWER: A
+Representation learning helps in:
+A.	Removing all model parameters
+B.	Increasing dataset size
+C.	Slowing down computations
+D.	Transferring knowledge between tasks
+ANSWER: D
+The goal of representation learning is to find:
+A.	A compact and useful representation of raw input data
+B.	The most complex model
+C.	The fastest sorting method
+D.	The largest dataset
+ANSWER: A
+What is a biological neuron?
+A.	A computer chip
+B.	A basic unit of the nervous system that processes information
+C.	A blood cell
+D.	A type of muscle cell
+ANSWER: B
+What is the function of dendrites in a neuron?
+A.	Store genetic information
+B.	Transmit signals to other neurons
+C.	Produce energy for the cell
+D.	Receive signals from other neurons
+ANSWER: D
+What is the axon in a neuron?
+A.	The outer covering of the brain
+B.	The long fiber that transmits signals away from the cell body
+C.	The part that receives signals
+D.	The nucleus of the cell
+ANSWER: B
+A synapse is:
+A.	The junction between two neurons
+B.	The outer membrane
+C.	The cell body of a neuron
+D.	The axon terminal only
+ANSWER: A
+A biological neuron fires (activates) when:
+A.	The cell is resting
+B.	The input signal exceeds a threshold
+C.	The temperature is high
+D.	It receives no signal
+ANSWER: B
+Artificial neural networks in deep learning are inspired by:
+A.	Computer circuits
+B.	Sorting algorithmsC. Biological neurons in the brain
+D. Chemical reactions
+ANSWER: C
+What is the role of neurotransmitters in biological neurons?
+A.	Produce electricity directly
+B.	Carry signals across synapses
+C.	Store memory permanently
+D.	Build new neurons
+ANSWER: B
+The cell body of a neuron is also known as:
+A.	Soma
+B.	Dendrite
+C.	Synapse
+D.	Axon
+ANSWER: A
+An artificial neuron computes: A. A weighted sum of inputs followed by an activation function
+B. The maximum of all inputs C. A random output
+D. The square root of inputs
+ANSWER: A
+What does a weight represent in an artificial neuron?
+A.	The learning rate
+B.	The output value
+C.	The number of neurons
+D.	The importance or strength of a connection
+ANSWER: D
+What is a bias term in a neuron?
+A.	The input data
+B.	An error in the model
+C.	The output label
+D.	An additional learnable parameter that shifts the activation
+ANSWER: D
+The output of an artificial neuron is determined by:
+A.	The hardware speed
+B.	The input data only
+C.	The weighted sum plus bias, passed through an activation function
+D.	Random number generation
+ANSWER: C
+Multiple artificial neurons connected together form:
+A.	A sorting algorithm
+B.	A file system
+C.	A neural network
+D.	A database
+ANSWER: C
+In a neural network, neurons in the same layer are typically:
+A.	Connected to neurons in adjacent layers
+B.	Connected to the output only
+C.	Not connected at all
+D.	Connected to each other
+ANSWER: A
+The perceptron is:
+A.	A complex deep network
+B.	A type of database
+C.	A hardware chip
+D.	The simplest artificial neuron model
+ANSWER: D
+What happens if a neuron's output is zero?
+A.	It is removed from the network
+B.	It causes an error
+C.	It contributes nothing to the next layer
+D.	It increases the learning rate
+ANSWER: C
+What is convolution in the context of deep learning?
+A.	A way to sort data
+B.	A type of loop in programming
+C.	A loss function
+D.	A mathematical operation that slides a filter over input data to extract features ANSWER: D
+What is a filter (kernel) in convolution?
+A.	The output of the network
+B.	A small matrix that is slid over the input to detect features
+C.	The activation function
+D.	The input image itself
+ANSWER: B
+Convolutional Neural Networks (CNNs) are mainly used for:
+A.	Text generation
+B.	Sorting algorithms
+C.	Image processing and recognition
+D.	Database queries
+ANSWER: C
+What does a pooling layer do in a CNN?
+A.	Adds more features
+B.	Adds noise to data
+C.	Reduces the spatial size of the feature map
+D.	Increases image resolution
+ANSWER: C
+Stride in convolution refers to:
+A. The size of the input B. The depth of the network
+C.	The number of filters
+D.	How many pixels the filter moves at each step
+ANSWER: D
+Padding in convolution is used to:
+A.	Increase learning rate
+B.	Remove noise
+C.	Reduce computation
+D.	Preserve the spatial dimensions of the output
+ANSWER: D
+What is the output of a convolution operation called?
+A.	A feature map
+B.	A bias term
+C.	A weight matrix
+D.	A loss value
+ANSWER: A
+Which type of pooling takes the maximum value in each region?
+A. Min Pooling B. Average Pooling
+C.	Max Pooling
+D.	Sum Pooling
+ANSWER: C
+CNNs are especially effective because they:
+A.	Share weights across spatial positions, reducing parameters
+B.	Do not require training
+C.	Have no activation functions
+D.	Use random weights
+ANSWER: A
+In a CNN, deeper layers typically learn:
+A.	Nothing useful
+B.	Smaller features than early layersC. Simple edges and colors
+D. More complex and abstract features
+ANSWER: D
+A Single Layer Perceptron consists of:
+A.	Only hidden layers
+B.	Multiple hidden layers
+C.	An encoder and decoder
+D.	Only an input layer and output layer with no hidden layers
+ANSWER: D
+What type of problems can a single-layer perceptron solve?
+A. Non-linear problems B. Any complex problem
+C.	Only image problems
+D.	Only linearly separable problems
+ANSWER: D
+The perceptron learning rule updates weights based on:
+A.	The number of neurons
+B.	The input values only
+C.	The difference between predicted and actual output
+D.	Random changes
+ANSWER: C
+A perceptron uses which activation function in its original form?
+A.	Softmax
+B.	Sigmoid
+C.	ReLU
+D.	Step function
+ANSWER: D
+What is the XOR problem in the context of perceptrons?
+A.	A problem perceptrons can easily solve
+B.	A sorting problem
+C.	An optimization problem
+D.	A non-linearly separable problem that a single-layer perceptron cannot solve
+ANSWER: D
+Who introduced the perceptron?
+A.	Yann LeCun
+B.	Andrew Ng
+C.	Geoffrey Hinton
+D.	Frank Rosenblatt
+ANSWER: D
+The output of a perceptron is:
+A.	A continuous value always
+B.	A probability distribution
+C.	A binary decision (0 or 1) based on a threshold
+D.	The input unchanged
+ANSWER: C
+In a perceptron, learning occurs by:
+A.	Changing the input data
+B.	Random initialization
+C.	Adjusting weights when a misclassification occurs
+D.	Adding more neurons
+ANSWER: C
+A Multi Layer Perceptron (MLP) differs from a single-layer perceptron by having:
+A.	One or more hidden layers between input and output
+B.	No activation functions
+C.	Only one neuron
+D.	No weights
+ANSWER: A
+MLP can solve:
+A.	Only regression tasks
+B.	Non-linear problems as well as linear problems
+C.	Only linear problems
+D.	Only classification tasksANSWER: B
+The hidden layers in an MLP:
+A. Only store input data B. Learn intermediate representations of data
+C.	Reduce model accuracy
+D.	Are not used during prediction
+ANSWER: B
+How is an MLP trained?
+A.	Manually adjusting weights
+B.	Using backpropagation and gradient descent
+C.	Using genetic algorithms only
+D.	By random search
+ANSWER: B
+Which algorithm is used to compute gradients in MLP?
+A.	Backpropagation
+B.	Forward propagation
+C.	Random Forest
+D.	K-MeansANSWER: A
+What is a fully connected layer?
+A.	A layer where every neuron is connected to every neuron in the next layer
+B.	A layer where each neuron connects to only one neuron in the next layer
+C.	A convolution layer
+D.	A layer with no connectionsANSWER: A
+The depth of an MLP refers to:
+A.	The number of features
+B.	The size of the dataset
+C.	The learning rate
+D.	The number of layers in the network
+ANSWER: D
+Which of the following is a typical use case for MLP?
+A.	Image segmentation with high accuracy
+B.	Video editing
+C.	Tabular data classification
+D.	Sorting a list
+ANSWER: C
+What is the role of an activation function in a neural network? A. To replace the loss function
+B.	To store data
+C.	To introduce non-linearity into the network
+D.	To increase data size
+ANSWER: C
+What does the ReLU activation function do?
+A. Outputs the square of the input B. Outputs the input if positive, zero otherwise
+C.	Outputs values between -1 and 1
+D.	Outputs a probability
+ANSWER: B
+The Sigmoid activation function outputs values in the range:
+A.	0 to 1
+B.	0 to infinity
+C.	-1 to 1
+D.	-infinity to infinity
+ANSWER: A
+Softmax activation is commonly used in:
+A.	Convolutional layers
+B.	The output layer for multi-class classification
+C.	Regression problems
+D.	Hidden layers
+ANSWER: B
+What is a key disadvantage of the Sigmoid activation function?
+A.	It suffers from the vanishing gradient problem
+B.	It cannot be used in deep networks
+C.	It is too fast
+D.	It only outputs integers
+ANSWER: A
+Tanh activation function outputs values in the range:
+A.	-infinity to infinity
+B.	0 to infinity
+C.	0 to 1D. -1 to 1 ANSWER: D
+Why is ReLU preferred over Sigmoid in deep networks?
+A.	ReLU is more complex
+B.	ReLU requires no training
+C.	ReLU outputs probabilities
+D.	ReLU helps avoid the vanishing gradient problem
+ANSWER: D
+Softmax converts raw scores into:
+A.	A probability distribution summing to 1
+B.	Binary values
+C.	Negative values
+D.	Integer values
+ANSWER: A
+What is the 'dying ReLU' problem? A. Neurons can get stuck outputting zero permanently
+B.	ReLU is too slow
+C.	ReLU ignores large values
+D.	ReLU becomes too large
+ANSWER: A
+Which activation function would you use in the output layer for binary classification?
+A.	Sigmoid
+B.	Linear
+C.	Tanh
+D.	ReLU
+ANSWER: A
+What is Leaky ReLU?
+A.	A slower version of ReLU
+B.	A sigmoid-like function
+C.	A variant of ReLU that outputs a small negative value for negative inputs
+D.	Same as standard ReLU
+ANSWER: C
+Without activation functions, a neural network would be equivalent to:
+A.	A sorting algorithm
+B.	A decision tree
+C.	A single linear transformation regardless of depth
+D.	A clustering algorithm
+ANSWER: C
+Which activation function is zero-centered?
+A.	Sigmoid
+B.	Softmax
+C.	ReLU
+D.	Tanh
+ANSWER: D
+The output of Softmax for a 3-class problem sums to:
+A.	Depends on input
+B.	1C. 0
+D. 3
+ANSWER: B
+What is the main purpose of an activation function at the output layer?
+A.	To increase model size
+B.	To reduce the learning rate
+C.	To add more layers
+D.	To format the output appropriately for the task (e.g., probability for classification)
+ANSWER: D
+What is forward propagation in a neural network?
+A.	Reducing the learning rate
+B.	Updating weights backward
+C.	Increasing the number of layers
+D.	The process of passing input data through layers to produce an output
+ANSWER: D
+During forward propagation, the computation at each neuron is:
+A.	A random value
+B.	The loss value
+C.	Only the input value
+D.	Weighted sum of inputs plus bias, then activation function
+ANSWER: D
+Forward propagation produces: A. A prediction/output from the network
+B.	Updated weights
+C.	The gradient of the loss
+D.	Training data
+ANSWER: A
+What is computed first in forward propagation?
+A.	Gradients
+B.	Weight updates
+C.	Loss function
+D.	Weighted sum at each layer
+ANSWER: D
+The result of forward propagation is used to:
+A.	Update the activation function
+B.	Compute the loss by comparing prediction with the true label
+C.	Generate new training data
+D.	Change the number of layers
+ANSWER: B
+In forward propagation, data flows:
+A.	Randomly between layers
+B.	Only in the hidden layers
+C.	From output to input
+D.	From input layer through hidden layers to output layer
+ANSWER: D
+Which step comes after forward propagation during training?
+A.	Removing neurons
+B.	Feature engineering
+C.	Computing the loss and then backpropagation
+D.	Adding more data
+ANSWER: C
+During inference (prediction only), which process is used?
+A.	Random weight assignment
+B.	Forward propagation only
+C.	Backpropagation only
+D.	Both forward and backward propagation
+ANSWER: B
+What does the input layer do during forward propagation?
+A.	Computes the loss
+B.	Updates weights
+C.	Passes raw features into the network without transformation
+D.	Applies activation functions
+ANSWER: C
+Which mathematical operation is central to forward propagation?
+A.	Hashing
+B.	Searching
+C.	Matrix multiplication (dot product of weights and inputs)
+D.	SortingANSWER: C
+Can forward propagation alone train a neural network?
+A.	Yes, it updates weights
+B.	No, it only computes predictions; backpropagation is needed for training
+C.	Yes, if the learning rate is correct
+D.	No, because forward propagation is not used in training
+ANSWER: B
+What is the role of a loss function?
+A.	To increase model complexity
+B.	To measure the difference between predicted and actual values
+C.	To initialize weights
+D.	To add new data
+ANSWER: B
+MSE stands for:
+A.	Mean Squared Error
+B.	Mean Standard EvaluationC. Minimum Sum Error
+D. Maximum Squared Estimate
+ANSWER: A
+MSE penalizes large errors more than small errors because:
+A.	It ignores small errors
+B.	It squares the errors, amplifying larger differences
+C.	It divides by the number of features
+D.	It uses absolute values
+ANSWER: B
+MAE stands for:
+A.	Maximum Absolute Error
+B.	Mean Absolute Error
+C.	Model Accuracy Error
+D.	Minimum Average Estimate
+ANSWER: B
+Compared to MSE, MAE is:
+A.	Less sensitive to outliers
+B.	More sensitive to outliers
+C.	Identical in behavior
+D.	Only for classification
+ANSWER: A
+MSE is commonly used for:
+A.	Regression tasks
+B.	Classification tasks
+C.	Clustering
+D.	Dimensionality reduction
+ANSWER: A
+Cross-Entropy loss is used for:
+A.	Anomaly detection
+B.	Classification problems
+C.	Regression
+D.	Clustering
+ANSWER: B
+A lower loss value indicates:
+A.	Better model performance
+B.	Higher learning rate needed
+C.	More training data is needed
+D.	Worse model performance
+ANSWER: A
+Huber loss combines the properties of:
+A.	Precision and Recall
+B.	Cross-Entropy and Softmax
+C.	MSE and MAE, being less sensitive to outliers than MSE
+D.	ReLU and Sigmoid
+ANSWER: C
+What is binary cross-entropy loss used for?
+A.	Multi-class classification
+B.	Binary classification problems
+C.	Clustering
+D.	Regression
+ANSWER: B
+If the predicted value equals the true value, the loss is:
+A.	Equal to 1
+B.	Exactly zero (or near zero)
+C.	Undefined
+D.	Very large
+ANSWER: B
+What is a confusion matrix?
+A.	A matrix of model weights
+B.	A table showing true vs predicted classifications
+C.	An activation function
+D.	A loss function
+ANSWER: B
+Accuracy is defined as:
+A.	True Positives / All Predictions
+B.	False Positives / Total
+C.	Correct Predictions / Total Predictions
+D.	True Negatives / False Positives
+ANSWER: C
+Sensitivity (Recall) measures:
+A.	Overall accuracy
+B.	Specificity of the model
+C.	How many predicted positives are actually positive
+D.	How many actual positives are correctly identified
+ANSWER: D
+Specificity measures:
+A.	The ability to correctly identify negative cases
+B.	The ability to correctly identify positive cases
+C.	Overall accuracy
+D.	The F1 score
+ANSWER: A
+Precision measures:
+A.	Recall of the model
+B.	Of all actual positives, how many were predicted correctly
+C.	Of all predicted positives, how many are actually positive
+D.	Overall model accuracy
+ANSWER: C
+F1 Score is the:
+A.	Product of Sensitivity and Specificity
+B.	Sum of Precision and Recall
+C.	Harmonic mean of Precision and Recall
+D.	Arithmetic mean of Accuracy and Recall
+ANSWER: C
+When is accuracy a misleading metric?
+A. When the dataset is balanced B. When the dataset is highly imbalanced
+C.	When there are many features
+D.	When training loss is low
+ANSWER: B
+True Positive (TP) means:
+A. Model predicted negative, actually negative B. Model predicted positive, actually negative C. Model predicted positive, actually positive
+D. Model predicted negative, actually positive
+ANSWER: C
+False Positive (FP) means:
+A. Model predicted positive, actually positive B. Model predicted negative, actually positive C. Model predicted negative, actually negative
+D. Model predicted positive, actually negative
+ANSWER: D

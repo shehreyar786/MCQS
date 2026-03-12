@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Machine Learning & AI Quiz</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+    </div>
+
+    <main class="app-container">
+        <header class="glass-header">
+            <div class="header-content">
+                <div class="logo-area">
+                    <i class="fa-solid fa-brain"></i>
+                    <div>
+                        <h1>AI & ML Masterclass</h1>
+                        <p>Test your knowledge with 150 carefully crafted MCQs</p>
+                    </div>
+                </div>
+                <div class="score-display hidden" id="live-score">
+                    SCORE: <span id="current-score">0</span> / 150
+                </div>
+            </div>
+        </header>
+
+        <section class="quiz-section">
+            <div id="questions-container">
+                <!-- Questions will be injected here by JS -->
+                <div class="loading-state">
+                    <div class="spinner"></div>
+                    <p>Loading questions...</p>
+                </div>
+            </div>
+
+            <div class="actions-container hidden" id="submit-actions">
+                <button class="primary-btn glow-effect" id="submit-btn" onclick="app.submitQuiz()">
+                    <i class="fa-solid fa-check-double"></i> Submit Quiz & View Results
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Results Modal -->
+    <div class="modal-overlay hidden" id="results-modal">
+        <div class="modal-content glass-card">
+            <i class="fa-solid fa-trophy modal-icon"></i>
+            <h2 id="modal-title">Quiz Completed!</h2>
+            <div class="score-circle">
+                <div class="score-text">
+                    <span id="final-score">0</span><span class="total">/150</span>
+                </div>
+            </div>
+            <p id="feedback-message">Great effort! Take a look at the explanations below.</p>
+            <div class="modal-actions">
+                <button class="secondary-btn" onclick="app.closeModal()">Review Answers</button>
+                <button class="primary-btn" onclick="app.resetQuiz()"><i class="fa-solid fa-rotate-right"></i> Retake Quiz</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- The Javascript data file generated -->
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
